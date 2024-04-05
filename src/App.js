@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Links from './components/Links';
 
 export default function App() {
     return (
@@ -11,6 +12,7 @@ export default function App() {
             <About />
             <Skills />
             <Contact />
+            <Links />
         </main>
     );
 }
