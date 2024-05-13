@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Skills from './components/Skills';
-import Contact from './components/Contact';
 import Links from './components/Links';
 
 export default function App() {
@@ -11,7 +10,6 @@ export default function App() {
             <Navbar />
             <About />
             <Skills />
-            <Contact />
             <Links />
         </main>
     );
